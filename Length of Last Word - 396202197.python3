@@ -1,0 +1,13 @@
+/*
+Author : Poojan Thaker 
+Problem name : Length of Last Word
+Runtime : 32 ms 
+Memory : 13.9 MB
+Problem link : https://leetcode.com/problems/length-of-last-word/
+*/
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        if len(s.split())==0:
+            return 0
+        return len(s.split()[-1]) 
+        
